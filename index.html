@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quase Tudo - Mini Mercado, Churrasqueira Sabor Gaúcho & Delivery | Luanda, Angola</title>
+  <meta name="description" content="Quase Tudo: o seu Mini Mercado de produtos frescos e essenciais, Churrasqueira e Bar Sabor Gaúcho com carnes nobres no braseiro e serviço rápido de entrega ao domicílio na Zona Verde III, Belas, Luanda.">
+  <meta name="keywords" content="Quase Tudo, Mini Mercado Angola, Churrasqueira Sabor Gaúcho Luanda, Comércio Belas, Delivery Luanda, Carnes nobres, Supermercado Zona Verde III">
+  
+  <!-- Open Graph / Meta Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.quasetudo.ao/">
+  <meta property="og:title" content="Quase Tudo - Mini Mercado & Churrasqueira Sabor Gaúcho">
+  <meta property="og:description" content="Frescor, sabor e comodidade reunidos num só lugar. Faça a sua encomenda online ou visite-nos em Belas, Luanda.">
+  <meta property="og:image" content="assets/images/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       TOP ANNOUNCEMENT BAR
+       ========================================== -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <span class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Zona Verde III, Av. Lúcio Lara, Rua 53 - Belas, Luanda
+        </span>
+        <span class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          (+244) 929 705 873 | 929 705 731
+        </span>
+      </div>
+      <div class="topbar-right">
+        <span class="badge-pulse">
+          <span class="pulse-dot"></span>
+          Serviço de Entrega & Take Away Activo
+        </span>
+        <span class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          geral@quasetudo.ao
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       MAIN NAVIGATION
+       ========================================== -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Navegação Principal">
+        <a href="#inicio" class="brand-logo" aria-label="Página Inicial Quase Tudo">
+          <img src="assets/images/logo.png" alt="Logótipo Oficial Quase Tudo">
+          <span class="brand-tag">Luanda • Belas</span>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+          <li><a href="#minimercado" class="nav-link">Mini Mercado</a></li>
+          <li><a href="#churrasqueira" class="nav-link">Sabor Gaúcho</a></li>
+          <li><a href="#delivery" class="nav-link">Entregas</a></li>
+          <li><a href="#contactos" class="nav-link">Contactos</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button id="cart-toggle-btn" class="cart-toggle-btn" aria-label="Abrir Pedido / Carrinho">
+            <svg style="width: 22px; height: 22px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <span id="cart-badge" class="cart-badge" style="display: none;">0</span>
+          </button>
+
+          <a href="https://wa.me/244929705873" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <svg style="width: 17px; height: 17px;" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.652c1.746.953 3.71 1.456 5.711 1.456h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.414z"/>
+            </svg>
+            Pedir no WhatsApp
+          </a>
+
+          <button id="hamburger-btn" class="hamburger" aria-label="Abrir Menu de Navegação">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section id="inicio" class="hero-section">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-pill">
+            <svg style="width: 16px; height: 16px; color: #76b83b;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            QUASE TUDO • Comércio e Prestação de Serviços, Lda.
+          </div>
+          <h1 class="hero-title">
+            Tudo o que precisa com o <span class="text-gradient-green">Frescor</span> & <span class="text-gradient-orange">Sabor</span> que você merece.
+          </h1>
+          <p class="hero-desc">
+            O seu ponto de encontro em Belas: um <strong>Mini Mercado completo</strong> com hortifrúti fresco e mercearia de primeira, aliado à autêntica <strong>Churrasqueira Sabor Gaúcho</strong> e serviço rápido de entregas ao domicílio.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#churrasqueira" class="btn btn-flame">
+              <svg style="width: 18px; height: 18px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+              Cardápio Sabor Gaúcho
+            </a>
+            <a href="#minimercado" class="btn btn-primary">
+              <svg style="width: 18px; height: 18px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+              Ver Mini Mercado
+            </a>
+            <a href="#sobre" class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.2); background: transparent;">
+              Conhecer a Loja
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-num">+1.500</span>
+              <span class="stat-label">Itens Disponíveis</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Frescos & Selecionados</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">Rápido</span>
+              <span class="stat-label">Delivery em Luanda</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-visual-card">
+            <img src="assets/images/hero_hortifruti.png" alt="Quase Tudo Mini Mercado no Verão - Carrinho de Compras com Produtos Frescos">
+            <div class="hero-floating-badge">
+              <span class="pulse-dot"></span>
+              Loja Aberta Hoje
+            </div>
+            <div class="hero-card-overlay">
+              <span style="font-size: 0.8rem; font-weight: 700; color: #a4e652; text-transform: uppercase; letter-spacing: 1px;">Loja Oficial Lúcio Lara</span>
+              <h3 style="font-size: 1.5rem; color: #ffffff; margin-top: 0.2rem;">Frescor Diário & Churrasco Gaúcho</h3>
+              <p style="color: #cbd5e1; font-size: 0.88rem;">Zona Verde III, Rua 53, Belas - Luanda</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         HIGHLIGHTS STRIP
+         ========================================== -->
+    <div class="highlights-bar">
+      <div class="container highlights-grid">
+        <div class="highlight-box">
+          <div class="highlight-icon">
+            <svg style="width: 26px; height: 26px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          </div>
+          <div class="highlight-info">
+            <h4>Mini Mercado</h4>
+            <p>Hortifrúti, laticínios & mercearia</p>
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <div class="highlight-icon flame">
+            <svg style="width: 26px; height: 26px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+          </div>
+          <div class="highlight-info">
+            <h4>Sabor Gaúcho</h4>
+            <p>Churrasco nobre e espetos na brasa</p>
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <div class="highlight-icon">
+            <svg style="width: 26px; height: 26px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div class="highlight-info">
+            <h4>Serviço Delivery</h4>
+            <p>Entregas rápidas à sua porta</p>
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <div class="highlight-icon flame">
+            <svg style="width: 26px; height: 26px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          </div>
+          <div class="highlight-info">
+            <h4>Qualidade Garantida</h4>
+            <p>Empresa 100% licenciada e idónea</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================
+         SECTOR PILLARS / ÁREAS DA QUASE TUDO
+         ========================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Conheça Nossos Serviços</span>
+          <h2 class="section-title">Soluções Completas Para O Seu Dia a Dia</h2>
+          <p class="section-desc">Na Quase Tudo combinamos a conveniência de um retalho moderno com a gastronomia de alta qualidade em churrasco e petiscos.</p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1 -->
+          <div class="pillar-card">
+            <div class="pillar-img-wrap">
+              <img src="assets/images/fachada_loja_lucio_lara.png" alt="Mini Mercado Quase Tudo Fachada">
+              <span class="pillar-badge">Loja Física & Conveniência</span>
+            </div>
+            <div class="pillar-body">
+              <h3>Mini Mercado Quase Tudo</h3>
+              <p>O mercado de bairro que tem quase tudo o que você precisa! Frutas frescas, legumes, lacticínios, padaria e artigos de primeira necessidade com preços justos.</p>
+              <ul class="pillar-features">
+                <li><svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Hortifrúti renovado diariamente</li>
+                <li><svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Mercearia de marcas líderes</li>
+                <li><svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Produtos de higiene e lar</li>
+              </ul>
+              <a href="#minimercado" class="btn btn-outline btn-sm">Explorar Mini Mercado</a>
+            </div>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="pillar-card">
+            <div class="pillar-img-wrap">
+              <img src="assets/images/carnes_grelha.png" alt="Churrasqueira Sabor Gaúcho na Grelha">
+              <span class="pillar-badge" style="background: rgba(230, 74, 25, 0.9);">Churrasco Autêntico</span>
+            </div>
+            <div class="pillar-body">
+              <h3>Churrasqueira Sabor Gaúcho</h3>
+              <p>O melhor churrasco gaúcho no coração de Angola! Carnes nobres grelhadas na brasa, espetos suculentos, picanha na tábua, hambúrgueres artesanais e sandes da casa.</p>
+              <ul class="pillar-features">
+                <li><svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Espetos diários de vaca, porco e frango</li>
+                <li><svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Tábuas especiais e cortes nobres</li>
+                <li><svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Molhos artesanais exclusivos</li>
+              </ul>
+              <a href="#churrasqueira" class="btn btn-flame btn-sm">Ver Cardápio Completo</a>
+            </div>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="pillar-card">
+            <div class="pillar-img-wrap">
+              <img src="assets/images/bebidas_geladas.png" alt="Bar Quase Tudo e Garrafeira">
+              <span class="pillar-badge">Bebidas & Delivery</span>
+            </div>
+            <div class="pillar-body">
+              <h3>Bar, Garrafeira & Take Away</h3>
+              <p>Cervejas nacionais e internacionais sempre estupidamente geladas (Cuca, Nocal, Eka, Heineken, Corona), cocktails, sumos e serviço de entregas e takeaway.</p>
+              <ul class="pillar-features">
+                <li><svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Cervejas nacionais e importadas</li>
+                <li><svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Encomendas para festas e eventos</li>
+                <li><svg style="width:16px;height:16px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg> Entrega expressa na Zona Verde III</li>
+              </ul>
+              <a href="#delivery" class="btn btn-outline btn-sm">Pedir Delivery</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CARDÁPIO INTERATIVO - SABOR GAÚCHO & BAR
+         ========================================== -->
+    <section id="churrasqueira" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag flame">Cardápio Oficial</span>
+          <h2 class="section-title">Sabor Gaúcho & Bar Quase Tudo</h2>
+          <p class="section-desc">Churrasco nobre preparado na brasa viva, carnes maturadas e bebidas selecionadas. Escolha os seus favoritos e adicione directamente ao seu pedido!</p>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="menu-controls">
+          <button class="menu-tab-btn active" data-filter="all">Todos os Pratos</button>
+          <button class="menu-tab-btn" data-filter="espetos-vaca">Espetos de Vaca</button>
+          <button class="menu-tab-btn" data-filter="especiais-tabua">Especiais na Tábua</button>
+          <button class="menu-tab-btn" data-filter="domingo">Domingos Especiais</button>
+          <button class="menu-tab-btn" data-filter="porco">Carnes de Porco</button>
+          <button class="menu-tab-btn" data-filter="frango">Aves / Frango</button>
+          <button class="menu-tab-btn" data-filter="sandes">Sandes & Burgers</button>
+          <button class="menu-tab-btn" data-filter="bebidas">Bar & Bebidas</button>
+        </div>
+
+        <!-- Menu items grid -->
+        <div class="menu-grid" id="menu-items-grid">
+
+          <!-- Espetos de Vaca -->
+          <div class="menu-item-card" data-category="espetos-vaca">
+            <div class="menu-card-header">
+              <span class="item-code">V1</span>
+              <span class="item-badge-day">Todos os Dias</span>
+            </div>
+            <h3 class="menu-item-title">Espeto de Alcatra</h3>
+            <p class="menu-item-desc">100g de carne bovina nobre grelhada na brasa + 1 porção de molho especial da casa.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">2.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="v1" data-name="Espeto de Alcatra" data-price="2500" data-category="Espetos de Vaca" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="espetos-vaca">
+            <div class="menu-card-header">
+              <span class="item-code">V2</span>
+              <span class="item-badge-day">Todos os Dias</span>
+            </div>
+            <h3 class="menu-item-title">Espeto de Fraldão</h3>
+            <p class="menu-item-desc">100g de fraldão nobre suculento grelhado ao ponto + 1 porção de molho especial.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">2.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="v2" data-name="Espeto de Fraldão" data-price="2500" data-category="Espetos de Vaca" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="espetos-vaca">
+            <div class="menu-card-header">
+              <span class="item-code">V3</span>
+              <span class="item-badge-day">Destaque</span>
+            </div>
+            <h3 class="menu-item-title">Espeto de Maminha</h3>
+            <p class="menu-item-desc">100g de maminha macia e suculenta na brasa + 1 porção de molho artesanal.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">3.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="v3" data-name="Espeto de Maminha" data-price="3500" data-category="Espetos de Vaca" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="espetos-vaca">
+            <div class="menu-card-header">
+              <span class="item-code">V4</span>
+              <span class="item-badge-day">Todos os Dias</span>
+            </div>
+            <h3 class="menu-item-title">Espeto de Vazia</h3>
+            <p class="menu-item-desc">100g de corte nobre da vazia com textura impecável + molho especial da casa.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">2.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="v4" data-name="Espeto de Vazia" data-price="2500" data-category="Espetos de Vaca" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="espetos-vaca">
+            <div class="menu-card-header">
+              <span class="item-code">V6</span>
+              <span class="item-badge-day">Tradicional</span>
+            </div>
+            <h3 class="menu-item-title">Costela em Tiras</h3>
+            <p class="menu-item-desc">100g de tiras de costela macia grelhada lentamente na brasa + molho especial.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">2.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="v6" data-name="Costela em Tiras" data-price="2500" data-category="Espetos de Vaca" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <!-- Especiais na Tábua -->
+          <div class="menu-item-card" data-category="especiais-tabua">
+            <div class="menu-card-header">
+              <span class="item-code">TPIC</span>
+              <span class="item-badge-day">Quinta a Domingo</span>
+            </div>
+            <h3 class="menu-item-title">Picanha na Tábua (500g)</h3>
+            <p class="menu-item-desc">500g de picanha nobre fatiada na tábua de madeira com 2 tipos de molhos especiais da casa.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">17.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="tpic" data-name="Picanha na Tábua (500g)" data-price="17500" data-category="Especiais na Tábua" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="especiais-tabua">
+            <div class="menu-card-header">
+              <span class="item-code">V5</span>
+              <span class="item-badge-day">Quinta a Domingo</span>
+            </div>
+            <h3 class="menu-item-title">Espeto Especial de Picanha</h3>
+            <p class="menu-item-desc">100g de picanha no espeto na brasa viva + 1 tipo de molho especial.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">3.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="v5" data-name="Espeto de Picanha" data-price="3500" data-category="Especiais na Tábua" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="especiais-tabua">
+            <div class="menu-card-header">
+              <span class="item-code">TM2</span>
+              <span class="item-badge-day">Quinta a Domingo</span>
+            </div>
+            <h3 class="menu-item-title">Maminha na Tábua (500g)</h3>
+            <p class="menu-item-desc">500g de carne suculenta fatiada na tábua + 2 tipos de molhos exclusivos.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">10.000,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="tm2" data-name="Maminha na Tábua (500g)" data-price="10000" data-category="Especiais na Tábua" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="especiais-tabua">
+            <div class="menu-card-header">
+              <span class="item-code">TV3</span>
+              <span class="item-badge-day">Quinta a Domingo</span>
+            </div>
+            <h3 class="menu-item-title">Vazia na Tábua (500g)</h3>
+            <p class="menu-item-desc">500g de corte nobre da vazia servida na tábua quente + 2 molhos especiais.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">12.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="tv3" data-name="Vazia na Tábua (500g)" data-price="12500" data-category="Especiais na Tábua" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="especiais-tabua">
+            <div class="menu-card-header">
+              <span class="item-code">OC1</span>
+              <span class="item-badge-day">Premium</span>
+            </div>
+            <h3 class="menu-item-title">Carne de Borrego / Cabrito</h3>
+            <p class="menu-item-desc">200g de carne nobre de borrego ou cabrito bem temperada + 2 tipos de molhos especiais.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">7.000,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="oc1" data-name="Carne de Borrego/Cabrito (200g)" data-price="7000" data-category="Especiais na Tábua" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <!-- Domingos Especiais -->
+          <div class="menu-item-card" data-category="domingo">
+            <div class="menu-card-header">
+              <span class="item-code">JCV1</span>
+              <span class="item-badge-day" style="background: rgba(255,179,0,0.2); color: #ffb300;">Domingo em Família</span>
+            </div>
+            <h3 class="menu-item-title">Janela de Costela de Vaca</h3>
+            <p class="menu-item-desc">500g de costela assada inteira lentamente no fogo de chão + 2 molhos especiais.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">25.000,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="jcv1" data-name="Janela de Costela (500g)" data-price="25000" data-category="Domingos Especiais" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="domingo">
+            <div class="menu-card-header">
+              <span class="item-code">PIC1</span>
+              <span class="item-badge-day" style="background: rgba(255,179,0,0.2); color: #ffb300;">Domingo em Família</span>
+            </div>
+            <h3 class="menu-item-title">Picanha Família (1 Kg)</h3>
+            <p class="menu-item-desc">1 Kg de picanha nobre premium no braseiro + 4 porções de molhos especiais da casa.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">37.000,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="pic1" data-name="Picanha Família (1 Kg)" data-price="37000" data-category="Domingos Especiais" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="domingo">
+            <div class="menu-card-header">
+              <span class="item-code">MAMI</span>
+              <span class="item-badge-day" style="background: rgba(255,179,0,0.2); color: #ffb300;">Domingo em Família</span>
+            </div>
+            <h3 class="menu-item-title">Maminha Família (1 Kg)</h3>
+            <p class="menu-item-desc">1 Kg de maminha macia fatiada para a família inteira + 4 molhos especiais.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">37.000,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="mami" data-name="Maminha Família (1 Kg)" data-price="37000" data-category="Domingos Especiais" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <!-- Carnes de Porco -->
+          <div class="menu-item-card" data-category="porco">
+            <div class="menu-card-header">
+              <span class="item-code">P1</span>
+              <span class="item-badge-day">Especial</span>
+            </div>
+            <h3 class="menu-item-title">Espeto de Lombinho</h3>
+            <p class="menu-item-desc">100g de lombinho de porco suculento com tempero artesanal + molho especial.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">4.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="p1" data-name="Espeto de Lombinho" data-price="4500" data-category="Carnes de Porco" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="porco">
+            <div class="menu-card-header">
+              <span class="item-code">P2</span>
+              <span class="item-badge-day">Tradicional</span>
+            </div>
+            <h3 class="menu-item-title">Espeto de Entremeada</h3>
+            <p class="menu-item-desc">100g de entremeada estaladiça grelhada na brasa + molho especial.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">2.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="p2" data-name="Espeto de Entremeada" data-price="2500" data-category="Carnes de Porco" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="porco">
+            <div class="menu-card-header">
+              <span class="item-code">C2</span>
+              <span class="item-badge-day">Receita da Casa</span>
+            </div>
+            <h3 class="menu-item-title">Choriço Caseiro (Argola)</h3>
+            <p class="menu-item-desc">Choriço artesanal da casa grelhado inteiro, sabor inigualável.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">7.000,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="c2" data-name="Choriço Caseiro (Argola)" data-price="7000" data-category="Carnes de Porco" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <!-- Aves / Frango -->
+          <div class="menu-item-card" data-category="frango">
+            <div class="menu-card-header">
+              <span class="item-code">F0</span>
+              <span class="item-badge-day">Grelhados</span>
+            </div>
+            <h3 class="menu-item-title">Espeto de Peito de Frango</h3>
+            <p class="menu-item-desc">100g de peito de frango macio e dourado na brasa + molho especial.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">3.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="f0" data-name="Espeto de Peito de Frango" data-price="3500" data-category="Aves / Frango" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="frango">
+            <div class="menu-card-header">
+              <span class="item-code">FMEIO</span>
+              <span class="item-badge-day">Quinta a Domingo</span>
+            </div>
+            <h3 class="menu-item-title">Meio Frango no Braseiro</h3>
+            <p class="menu-item-desc">Meio frango marinado com especiarias gaúchas e assado no ponto perfeito.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">4.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="fmeio" data-name="Meio Frango no Braseiro" data-price="4500" data-category="Aves / Frango" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="frango">
+            <div class="menu-card-header">
+              <span class="item-code">FINT</span>
+              <span class="item-badge-day">Quinta a Domingo</span>
+            </div>
+            <h3 class="menu-item-title">Frango Inteiro no Braseiro</h3>
+            <p class="menu-item-desc">Frango inteiro grelhado com pele estaladiça e carne suculenta.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">9.000,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="fint" data-name="Frango Inteiro no Braseiro" data-price="9000" data-category="Aves / Frango" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <!-- Sandes & Hambúrgueres -->
+          <div class="menu-item-card" data-category="sandes">
+            <div class="menu-card-header">
+              <span class="item-code">HG1</span>
+              <span class="item-badge-day" style="background: rgba(255,87,34,0.2); color: #ff7043;">Mais Vendido</span>
+            </div>
+            <h3 class="menu-item-title">Hambúrguer Gaúcho</h3>
+            <p class="menu-item-desc">2 carnes artesanais, 2 ovos, batata palha crocante, queijo derretido, chouriço especial e milho.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">5.000,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="hg1" data-name="Hambúrguer Gaúcho" data-price="5000" data-category="Sandes & Burgers" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="sandes">
+            <div class="menu-card-header">
+              <span class="item-code">SV2</span>
+              <span class="item-badge-day">Especial da Casa</span>
+            </div>
+            <h3 class="menu-item-title">Carne de Panela no Pão</h3>
+            <p class="menu-item-desc">Carne de vaca desfiada cozinhada na pressão com molho e maionese especial no pão francês fresco.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">2.800,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="sv2" data-name="Carne de Panela no Pão" data-price="2800" data-category="Sandes & Burgers" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="sandes">
+            <div class="menu-card-header">
+              <span class="item-code">SV1</span>
+              <span class="item-badge-day">Sandes</span>
+            </div>
+            <h3 class="menu-item-title">Espeto de Vaca no Pão</h3>
+            <p class="menu-item-desc">Espeto de carne de vaca com molho especial servido quentinho no pão.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">2.800,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="sv1" data-name="Espeto de Vaca no Pão" data-price="2800" data-category="Sandes & Burgers" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <!-- Bar & Bebidas -->
+          <div class="menu-item-card" data-category="bebidas">
+            <div class="menu-card-header">
+              <span class="item-code">B7</span>
+              <span class="item-badge-day">Cerveja Gelada</span>
+            </div>
+            <h3 class="menu-item-title">Heineken (Long Neck)</h3>
+            <p class="menu-item-desc">Cerveja internacional premium, servida à temperatura ideal.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">2.000,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="b7" data-name="Cerveja Heineken" data-price="2000" data-category="Bar & Bebidas" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="bebidas">
+            <div class="menu-card-header">
+              <span class="item-code">B8</span>
+              <span class="item-badge-day">Importada</span>
+            </div>
+            <h3 class="menu-item-title">Cerveja Corona Extra</h3>
+            <p class="menu-item-desc">Cerveja mexicana refrescante, com rodela de limão a pedido.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">3.300,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="b8" data-name="Cerveja Corona Extra" data-price="3300" data-category="Bar & Bebidas" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="bebidas">
+            <div class="menu-card-header">
+              <span class="item-code">CUCA</span>
+              <span class="item-badge-day">Nacional</span>
+            </div>
+            <h3 class="menu-item-title">Cuca (Garrafa / Lata)</h3>
+            <p class="menu-item-desc">A autêntica cerveja de Angola, bem gelada no copo.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="cuca" data-name="Cerveja Cuca Garrafa" data-price="500" data-category="Bar & Bebidas" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="bebidas">
+            <div class="menu-card-header">
+              <span class="item-code">B3</span>
+              <span class="item-badge-day">Refrigerante</span>
+            </div>
+            <h3 class="menu-item-title">Coca-Cola em Lata (330ml)</h3>
+            <p class="menu-item-desc">Refrigerante gelado para acompanhar o seu almoço ou jantar.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">800,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="b3" data-name="Coca-Cola em Lata" data-price="800" data-category="Bar & Bebidas" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="bebidas">
+            <div class="menu-card-header">
+              <span class="item-code">B2</span>
+              <span class="item-badge-day">Água</span>
+            </div>
+            <h3 class="menu-item-title">Água Mineral sem Gás (500ml)</h3>
+            <p class="menu-item-desc">Água pura e refrescante de nascente natural.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">300,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="b2" data-name="Água sem Gás" data-price="300" data-category="Bar & Bebidas" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+          <div class="menu-item-card" data-category="bebidas">
+            <div class="menu-card-header">
+              <span class="item-code">BF</span>
+              <span class="item-badge-day">Acompanhamento</span>
+            </div>
+            <h3 class="menu-item-title">Dose de Batatas Fritas</h3>
+            <p class="menu-item-desc">Batatas fritas douradas e crocantes, salpicadas com sal fino.</p>
+            <div class="menu-card-footer">
+              <div class="menu-item-price">1.500,00 <span>Kz</span></div>
+              <button class="btn-add-item" data-id="bf" data-name="Dose de Batatas Fritas" data-price="1500" data-category="Acompanhamentos" title="Adicionar ao Pedido">+</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         MINI MERCADO PRODUCTS SECTION
+         ========================================== -->
+    <section id="minimercado" class="section market-catalog-section">
+      <div class="container">
+        
+        <!-- Market Promo Banner -->
+        <div class="market-banner-hero">
+          <img src="assets/images/painel_loja.png" alt="Painel Quase Tudo Mini Mercado">
+          <div class="market-banner-caption">
+            <div>
+              <span class="brand-tag">Loja de Proximidade</span>
+              <h2 style="font-size: 2rem; color: #ffffff; margin-top: 0.4rem;">Mini Mercado Quase Tudo</h2>
+              <p style="color: #e2e8f0; font-size: 0.95rem;">Frutas frescas, verduras selecionadas, mercearia fina e produtos para a despensa da sua família.</p>
+            </div>
+            <a href="https://wa.me/244929705873?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20produtos%20do%20Mini%20Mercado" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Fazer Lista no WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <span class="section-tag">Retalho & Frescos</span>
+          <h2 class="section-title">Produtos do Mini Mercado</h2>
+          <p class="section-desc">Seleccionamos produtos de primeira qualidade para garantir a satisfação da sua família no dia a dia.</p>
+        </div>
+
+        <!-- Filter tabs for market -->
+        <div class="market-filter-tabs">
+          <button class="market-tab-btn active" data-category="all">Todos os Produtos</button>
+          <button class="market-tab-btn" data-category="hortifruti">Hortifrúti & Frescos</button>
+          <button class="market-tab-btn" data-category="mercearia">Mercearia Essencial</button>
+          <button class="market-tab-btn" data-category="laticinios">Laticínios & Ovos</button>
+          <button class="market-tab-btn" data-category="bebidas">Sumos & Garrafeira</button>
+          <button class="market-tab-btn" data-category="higiene">Higiene & Limpeza</button>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid">
+          
+          <!-- Product 1 -->
+          <div class="product-card" data-category="hortifruti">
+            <div class="product-card-top">
+              <span class="product-card-badge">Fresco</span>
+              <span class="product-card-icon">🍎</span>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Hortifrúti</span>
+              <h4 class="product-title">Maçã Vermelha Selecionada (Kg)</h4>
+              <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.8rem;">Maçãs doces, crocantes e frescas directamente do produtor.</p>
+              <div class="product-footer">
+                <div class="product-price">1.800,00 Kz</div>
+                <button class="btn-add-product" data-id="prod-maca" data-name="Maçã Vermelha (Kg)" data-price="1800" data-category="Hortifrúti">+ Pedir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card" data-category="hortifruti">
+            <div class="product-card-top">
+              <span class="product-card-badge">Orgânico</span>
+              <span class="product-card-icon">🍅</span>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Hortifrúti</span>
+              <h4 class="product-title">Tomate Fresco Nacional (Kg)</h4>
+              <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.8rem;">Tomates maduros ideais para saladas, molhos e refogados.</p>
+              <div class="product-footer">
+                <div class="product-price">1.200,00 Kz</div>
+                <button class="btn-add-product" data-id="prod-tomate" data-name="Tomate Fresco Nacional (Kg)" data-price="1200" data-category="Hortifrúti">+ Pedir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card" data-category="hortifruti">
+            <div class="product-card-top">
+              <span class="product-card-badge">Natural</span>
+              <span class="product-card-icon">🍌</span>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Hortifrúti</span>
+              <h4 class="product-title">Banana Pão e de Mesa (Palma)</h4>
+              <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.8rem;">Bananas doces e nutritivas, colhidas no ponto certo.</p>
+              <div class="product-footer">
+                <div class="product-price">950,00 Kz</div>
+                <button class="btn-add-product" data-id="prod-banana" data-name="Banana de Mesa (Palma)" data-price="950" data-category="Hortifrúti">+ Pedir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="product-card" data-category="mercearia">
+            <div class="product-card-top">
+              <span class="product-card-badge">Essencial</span>
+              <span class="product-card-icon">🌾</span>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Mercearia</span>
+              <h4 class="product-title">Arroz Agulha Extra (1 Kg)</h4>
+              <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.8rem;">Grãos longos e soltos de alta qualidade para o seu almoço.</p>
+              <div class="product-footer">
+                <div class="product-price">1.450,00 Kz</div>
+                <button class="btn-add-product" data-id="prod-arroz" data-name="Arroz Agulha Extra (1 Kg)" data-price="1450" data-category="Mercearia">+ Pedir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 5 -->
+          <div class="product-card" data-category="mercearia">
+            <div class="product-card-top">
+              <span class="product-card-badge">Essencial</span>
+              <span class="product-card-icon">🌻</span>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Mercearia</span>
+              <h4 class="product-title">Óleo Vegetal Alimentar (1L)</h4>
+              <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.8rem;">Óleo 100% puro para cozinhados e frituras perfeitas.</p>
+              <div class="product-footer">
+                <div class="product-price">1.750,00 Kz</div>
+                <button class="btn-add-product" data-id="prod-oleo" data-name="Óleo Vegetal Alimentar (1L)" data-price="1750" data-category="Mercearia">+ Pedir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 6 -->
+          <div class="product-card" data-category="laticinios">
+            <div class="product-card-top">
+              <span class="product-card-badge">Fresco</span>
+              <span class="product-card-icon">🥛</span>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Laticínios</span>
+              <h4 class="product-title">Leite Meio Gordo UHT (1L)</h4>
+              <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.8rem;">Rico em cálcio e vitaminas para o café da manhã.</p>
+              <div class="product-footer">
+                <div class="product-price">1.300,00 Kz</div>
+                <button class="btn-add-product" data-id="prod-leite" data-name="Leite Meio Gordo (1L)" data-price="1300" data-category="Laticínios">+ Pedir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 7 -->
+          <div class="product-card" data-category="laticinios">
+            <div class="product-card-top">
+              <span class="product-card-badge">Fresco</span>
+              <span class="product-card-icon">🥚</span>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Laticínios & Ovos</span>
+              <h4 class="product-title">Cartela de Ovos Frescos (30 Unidades)</h4>
+              <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.8rem;">Ovos nacionais frescos inspecionados para toda a família.</p>
+              <div class="product-footer">
+                <div class="product-price">4.200,00 Kz</div>
+                <button class="btn-add-product" data-id="prod-ovos" data-name="Cartela de Ovos Frescos (30un)" data-price="4200" data-category="Laticínios">+ Pedir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 8 -->
+          <div class="product-card" data-category="bebidas">
+            <div class="product-card-top">
+              <span class="product-card-badge">Saboroso</span>
+              <span class="product-card-icon">🧃</span>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Sumos & Bebidas</span>
+              <h4 class="product-title">Sumo Compal Clássico (1L)</h4>
+              <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.8rem;">Diversos sabores de fruta natural, refrescante e nutritivo.</p>
+              <div class="product-footer">
+                <div class="product-price">1.100,00 Kz</div>
+                <button class="btn-add-product" data-id="prod-compal" data-name="Sumo Compal (1L)" data-price="1100" data-category="Sumos & Bebidas">+ Pedir</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 9 -->
+          <div class="product-card" data-category="higiene">
+            <div class="product-card-top">
+              <span class="product-card-badge">Limpeza</span>
+              <span class="product-card-icon">🧼</span>
+            </div>
+            <div class="product-card-body">
+              <span class="product-category">Higiene & Limpeza</span>
+              <h4 class="product-title">Detergente Líquido Loiça (1L)</h4>
+              <p style="font-size: 0.8rem; color: #64748b; margin-bottom: 0.8rem;">Alto poder desengordurante com aroma a limão.</p>
+              <div class="product-footer">
+                <div class="product-price">1.500,00 Kz</div>
+                <button class="btn-add-product" data-id="prod-detergente" data-name="Detergente Loiça (1L)" data-price="1500" data-category="Higiene & Limpeza">+ Pedir</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         DELIVERY SERVICE CTA BANNER
+         ========================================== -->
+    <section id="delivery" class="delivery-cta-section">
+      <div class="container">
+        <div class="delivery-box">
+          <div class="delivery-text">
+            <span class="badge-pulse" style="margin-bottom: 1rem;">
+              <span class="pulse-dot"></span>
+              Serviço Rápido de Entrega
+            </span>
+            <h2>Receba em Casa com Segurança e Conforto</h2>
+            <p>Seja o seu almoço de churrasco na brasa ou as compras da semana do Mini Mercado, a nossa equipa leva o pedido até si na Zona Verde III, Cabolombo, Belas e bairros vizinhos.</p>
+
+            <div class="delivery-steps">
+              <div class="step-card">
+                <div class="step-number">1</div>
+                <div class="step-title">Escolha no Site ou WhatsApp</div>
+              </div>
+              <div class="step-card">
+                <div class="step-number">2</div>
+                <div class="step-title">Confirmamos em Minutos</div>
+              </div>
+              <div class="step-card">
+                <div class="step-number">3</div>
+                <div class="step-title">Entrega Rápida à Sua Porta</div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/244929705873?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20pedido%20para%20entrega%20ao%20domic%C3%ADlio." target="_blank" rel="noopener noreferrer" class="btn btn-flame">
+              <svg style="width: 20px; height: 20px;" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.652c1.746.953 3.71 1.456 5.711 1.456h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.414z"/>
+              </svg>
+              Solicitar Pedido no WhatsApp
+            </a>
+          </div>
+
+          <div class="delivery-media-badge">
+            <svg style="width: 72px; height: 72px; color: #a4e652; margin: 0 auto 1.2rem;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="1" y="3" width="15" height="13"></rect>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+              <circle cx="5.5" cy="18.5" r="2.5"></circle>
+              <circle cx="18.5" cy="18.5" r="2.5"></circle>
+            </svg>
+            <h4 style="font-size: 1.3rem; color: #ffffff; margin-bottom: 0.4rem;">Linha Direta de Encomendas</h4>
+            <p style="color: #94a3b8; font-size: 0.88rem;">Atendimento rápido e personalizado para particulares e empresas.</p>
+            
+            <div class="delivery-phone-box">
+              <span style="font-size: 0.85rem; color: #64748b;">Contactos Telefónicos:</span>
+              <strong>(+244) 929 705 873</strong>
+              <strong>(+244) 929 704 979</strong>
+              <strong>(+244) 929 705 731</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         INSTITUCIONAL & SOBRE NÓS / ALVARÁ
+         ========================================== -->
+    <section id="sobre" class="section">
+      <div class="container about-grid">
+        <div class="about-info">
+          <span class="section-tag">Transparência & Confiança</span>
+          <h2>Empresa Registada e Licenciada em Angola</h2>
+          <p>
+            A <strong>QUASE TUDO - Comércio e Prestação de Serviços, Lda.</strong> é uma sociedade comercial angolana focada na excelência do atendimento, qualidade inegociável em todos os produtos comercializados e rapidez na entrega.
+          </p>
+          <p>
+            Com sede no Município de Belas, Distrito Urbano do Cabolombo, unimos as melhores marcas alimentares de mercearia ao autêntico churrasco gaúcho com sabor e tradição inconfundíveis.
+          </p>
+
+          <div class="about-pills-grid">
+            <div class="about-pill">
+              <h5>Idoneidade Fiscal</h5>
+              <span>NIF: 5002061066</span>
+            </div>
+            <div class="about-pill">
+              <h5>Licenciamento Comercial</h5>
+              <span>Média Superfície (C) - CAE 47112</span>
+            </div>
+            <div class="about-pill">
+              <h5>Origem dos Produtos</h5>
+              <span>Fornecedores certificados e frescos</span>
+            </div>
+            <div class="about-pill">
+              <h5>Equipa Qualificada</h5>
+              <span>Atendimento cordial e rigor sanitário</span>
+            </div>
+          </div>
+
+          <a href="#contactos" class="btn btn-outline">
+            Fale Connosco
+          </a>
+        </div>
+
+        <div class="alvara-display">
+          <div class="alvara-card">
+            <div class="alvara-header">
+              <div class="alvara-seal">
+                <svg style="width: 28px; height: 28px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 style="font-size: 1.15rem; color: #1e293b;">República de Angola</h4>
+                <span style="font-size: 0.8rem; color: #64748b;">Ministério da Indústria e Comércio</span>
+              </div>
+            </div>
+
+            <table class="alvara-details-table">
+              <tr>
+                <td>Empresa:</td>
+                <td><strong>QUASE TUDO - Comércio e Prestação de Serviços, Lda.</strong></td>
+              </tr>
+              <tr>
+                <td>NIF:</td>
+                <td><strong>5002061066</strong></td>
+              </tr>
+              <tr>
+                <td>Actividade:</td>
+                <td>Comércio a Retalho (CAE: 47112)</td>
+              </tr>
+              <tr>
+                <td>Localização:</td>
+                <td>Rua 53 - Av. Lúcio Lara, Bairro Zona Verde III, Porta nº 01/8.1, Belas - Luanda</td>
+              </tr>
+              <tr>
+                <td>Validade:</td>
+                <td><span style="color: #16a34a; font-weight: 700;">Tempo Indeterminado</span></td>
+              </tr>
+              <tr>
+                <td>Domínio Web:</td>
+                <td><a href="https://www.quasetudo.ao" style="color: var(--primary-dark); font-weight: 600;">www.quasetudo.ao</a></td>
+              </tr>
+            </table>
+
+            <div style="margin-top: 1.2rem; padding: 0.8rem; background: #f8fafc; border-radius: 8px; font-size: 0.8rem; color: #64748b; text-align: center;">
+              Documento conferido e aprovado pelo Ministério da Indústria e Comércio sob o Código Oficial 202408165002061066150826.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         LOCALIZAÇÃO E CONTACTOS
+         ========================================== -->
+    <section id="contactos" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Onde Estamos</span>
+          <h2 class="section-title">Visite-nos ou Entre em Contacto</h2>
+          <p class="section-desc">Estamos localizados em ponto privilegiado na Zona Verde III em Belas. Teremos todo o prazer em recebê-lo ou enviar o seu pedido.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Information Column -->
+          <div class="contact-cards-col">
+            <div class="contact-card-box">
+              <div class="contact-icon-wrap">
+                <svg style="width: 22px; height: 22px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <h4>Endereço da Loja</h4>
+                <p>Município de Belas, Distrito Urbano do Cabolombo, Zona Verde III, Rua 53 - Av. Lúcio Lara, Porta n.º 01, Sala 8.1 (Próximo do Condomínio Pricensa), Luanda - República de Angola.</p>
+              </div>
+            </div>
+
+            <div class="contact-card-box">
+              <div class="contact-icon-wrap">
+                <svg style="width: 22px; height: 22px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <h4>Telefones & WhatsApp</h4>
+                <p>
+                  Atendimento Geral: <strong>(+244) 929 705 731 / 931 943 828</strong><br>
+                  Delivery & Pedidos: <strong>(+244) 929 705 873 / 929 704 979</strong>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-card-box">
+              <div class="contact-icon-wrap">
+                <svg style="width: 22px; height: 22px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div>
+                <h4>Correio Electrónico</h4>
+                <p>geral@quasetudo.ao / oi@quasetudo.ao</p>
+              </div>
+            </div>
+
+            <div class="contact-card-box">
+              <div class="contact-icon-wrap">
+                <svg style="width: 22px; height: 22px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div>
+                <h4>Horário de Funcionamento</h4>
+                <p>
+                  <strong>Segunda a Sábado:</strong> 08:00 às 22:00<br>
+                  <strong>Domingos e Feriados:</strong> 08:00 às 20:00 (Com o especial Janela de Costela e Picanha Família)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-box">
+            <h3>Envie uma Mensagem</h3>
+            <p>Tem alguma dúvida, encomenda especial ou gostaria de fazer uma parceria comercial? Envie-nos uma mensagem:</p>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="form-name">Nome Completo</label>
+                <input type="text" id="form-name" class="form-control" placeholder="Seu nome" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-phone">Telemóvel / WhatsApp</label>
+                <input type="tel" id="form-phone" class="form-control" placeholder="(+244) 9xx xxx xxx" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">Assunto</label>
+                <select id="form-subject" class="form-control">
+                  <option value="Dúvida Geral">Dúvida Geral</option>
+                  <option value="Encomenda para Evento">Encomenda para Evento / Festa</option>
+                  <option value="Parceria de Fornecimento">Parceria de Fornecimento</option>
+                  <option value="Elogio ou Sugestão">Elogio ou Sugestão</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Sua Mensagem</label>
+                <textarea id="form-message" class="form-control" placeholder="Escreva a sua mensagem detalhada aqui..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <svg style="width: 18px; height: 18px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Enviar Directo via WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo.png" alt="Quase Tudo Logótipo">
+          <p>
+            QUASE TUDO - COMÉRCIO E PRESTAÇÃO DE SERVIÇOS, LDA.<br>
+            A combinação perfeita de conveniência em retalho com a tradicional excelência do churrasco gaúcho no coração de Angola.
+          </p>
+          <div style="font-size: 0.85rem; color: #cbd5e1;">
+            <strong>NIF:</strong> 5002061066<br>
+            <strong>Alvará:</strong> Média Superfície C (CAE 47112)
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Página Inicial</a></li>
+            <li><a href="#sobre">Sobre a Empresa</a></li>
+            <li><a href="#minimercado">Mini Mercado</a></li>
+            <li><a href="#churrasqueira">Sabor Gaúcho</a></li>
+            <li><a href="#delivery">Serviço de Entrega</a></li>
+            <li><a href="#contactos">Localização & Contactos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Especialidades</h4>
+          <ul class="footer-links">
+            <li><a href="#churrasqueira">Espetos na Brasa</a></li>
+            <li><a href="#churrasqueira">Picanha na Tábua</a></li>
+            <li><a href="#churrasqueira">Hambúrguer Gaúcho</a></li>
+            <li><a href="#minimercado">Hortifrúti Fresco</a></li>
+            <li><a href="#churrasqueira">Garrafeira & Bar</a></li>
+            <li><a href="#delivery">Take Away & Encomendas</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Onde Estamos</h4>
+          <p style="font-size: 0.88rem; line-height: 1.6; margin-bottom: 1rem;">
+            Rua 53 - Av. Lúcio Lara, Bairro Zona Verde III (Próx. Condomínio Pricensa), Porta n.º 01 / Sala 8.1, Município de Belas, Luanda - Angola.
+          </p>
+          <p style="font-size: 0.88rem;">
+            <strong>Tel:</strong> (+244) 929 705 873<br>
+            <strong>E-mail:</strong> geral@quasetudo.ao
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Quase Tudo - Comércio e Prestação de Serviços, Lda. Todos os direitos reservados.
+        </div>
+        <div>
+          Desenvolvido com excelência técnica para o Grupo Quase Tudo.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       SHOPPING CART MODAL & DRAWER
+       ========================================== -->
+  <div id="cart-overlay" class="cart-overlay"></div>
+  <aside id="cart-drawer" class="cart-drawer" aria-label="Carrinho de Compras">
+    <div class="cart-header">
+      <h3>
+        <svg style="width: 22px; height: 22px; color: var(--primary);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        O Seu Pedido
+      </h3>
+      <button id="cart-close-btn" class="cart-close-btn" aria-label="Fechar Carrinho">&times;</button>
+    </div>
+
+    <div id="cart-items-list" class="cart-items-list">
+      <!-- Populated via main.js -->
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span class="cart-total-label">Total Previsto:</span>
+        <span id="cart-total-val" class="cart-total-val">0,00 Kz</span>
+      </div>
+
+      <button id="checkout-whatsapp-btn" class="btn btn-flame" style="width: 100%; padding: 0.9rem;" disabled>
+        <svg style="width: 20px; height: 20px;" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.652c1.746.953 3.71 1.456 5.711 1.456h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.414z"/>
+        </svg>
+        Finalizar Pedido via WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- ==========================================
+       FLOATING WHATSAPP BUTTON
+       ========================================== -->
+  <a href="https://wa.me/244929705873" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Contactar no WhatsApp">
+    <svg style="width: 32px; height: 32px;" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.652c1.746.953 3.71 1.456 5.711 1.456h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.414z"/>
+    </svg>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
