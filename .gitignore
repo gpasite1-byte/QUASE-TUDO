@@ -4,3 +4,8 @@
 *.log
 .DS_Store
 Thumbs.db
+
+# Documentos e ficheiros de impressão locais
+*.pdf
+GRUPO-LOGOS-QUASE-TUDO.png
+QUASE-TUDOPrancheta-5.png
